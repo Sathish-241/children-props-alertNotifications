@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+.item-container {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+
+  align-items: center;
+}
+.text {
+  margin-left: 50px;
+  width: 50%;
+}
+
+.success-text {
+  color: green;
+  font-family: Roboto;
+  font-size: 24px;
+}
+.error-text {
+  color: red;
+  font-family: Roboto;
+  font-size: 24px;
+}
+.warning-text {
+  color: orange;
+  font-family: Roboto;
+  font-size: 24px;
+}
+.info-text {
+  color: blue;
+  font-family: Roboto;
+  font-size: 24px;
+}
+.description {
+  color: #475569;
+  font-weight: 500;
+  font-size: 14px;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+
+  align-self: flex-start;
+  margin-top: 15px;
+}
+.success-icon {
+  color: green;
+}
+.error-icon {
+  color: red;
+}
+.warning-icon {
+  color: orange;
+}
+.info-icon {
+  color: blue;
+}

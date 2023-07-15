@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.item {
+  list-style-type: none;
+  border: 1px solid #64748b;
+  margin: 10px;
+  padding: 10px;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.close-icon {
+  margin-right: 40px;
+  height: 30px;
+  width: 30px;
+}
